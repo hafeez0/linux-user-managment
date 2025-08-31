@@ -1,6 +1,25 @@
 # Bulk User & Group Management Automation
 
-This project automates Linux user and group creation from a CSV file. 
-It ensures groups are created if missing, users are added with default passwords, 
-and password reset is enforced on first login. Admin group members are granted sudo rights.
+## 📌 Problem
+In enterprise environments, HR often provides bulk user details in spreadsheets. 
+Manually creating users and groups is slow and error-prone.
+
+## 🚀 Solution
+This script automates:
+- Group creation
+- User creation
+- Default password setup
+- Password reset enforcement
+- Sudo access for admins group
+
+## ⚙️ Tools & Skills
+- Linux (RHEL/CentOS/Ubuntu)
+- Bash Scripting
+- User/Group Management
+- Security Policies
+
+## 🖼️ Demo
+```bash
+sudo ./user_setup.sh
+
 
